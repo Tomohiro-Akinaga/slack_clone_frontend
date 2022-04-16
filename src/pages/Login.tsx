@@ -1,5 +1,11 @@
+import AuthButton from "../components/Auth/AuthButton/AuthButton";
+
 function LogIn() {
-    return <h1>LogIn</h1>;
+  return (
+    <>
+      <AuthButton name="LogIn" onClick={() => alert("LogIn")} />
+    </>
+  );
 }
 
 export default LogIn;
